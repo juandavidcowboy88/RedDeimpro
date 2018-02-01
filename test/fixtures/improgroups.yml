@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name_improgroups: MyString
+  creation_year: MyString
+  actors_improgroups: MyString
+  image_improgroups: MyString
+
+two:
+  name_improgroups: MyString
+  creation_year: MyString
+  actors_improgroups: MyString
+  image_improgroups: MyString

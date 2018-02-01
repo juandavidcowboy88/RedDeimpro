@@ -1,0 +1,2 @@
+class Improgroup < ApplicationRecord
+end

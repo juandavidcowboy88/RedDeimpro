@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name improgroups:</strong>
+  <%= @improgroup.name_improgroups %>
+</p>
+
+<p>
+  <strong>Creation year:</strong>
+  <%= @improgroup.creation_year %>
+</p>
+
+<p>
+  <strong>Actors improgroups:</strong>
+  <%= @improgroup.actors_improgroups %>
+</p>
+
+<p>
+  <strong>Image improgroups:</strong>
+  <%= @improgroup.image_improgroups %>
+</p>
+
+<%= link_to 'Edit', edit_improgroup_path(@improgroup) %> |
+<%= link_to 'Back', improgroups_path %>

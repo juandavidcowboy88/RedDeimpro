@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Improgroups</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name improgroups</th>
+      <th>Creation year</th>
+      <th>Actors improgroups</th>
+      <th>Image improgroups</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @improgroups.each do |improgroup| %>
+      <tr>
+        <td><%= improgroup.name_improgroups %></td>
+        <td><%= improgroup.creation_year %></td>
+        <td><%= improgroup.actors_improgroups %></td>
+        <td><%= improgroup.image_improgroups %></td>
+        <td><%= link_to 'Show', improgroup %></td>
+        <td><%= link_to 'Edit', edit_improgroup_path(improgroup) %></td>
+        <td><%= link_to 'Destroy', improgroup, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+<button type="button" class="btn btn-primary">
+  <%= link_to 'New Improgroup', new_improgroup_path %>
+</button>

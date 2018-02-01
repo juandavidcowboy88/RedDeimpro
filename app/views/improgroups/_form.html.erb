@@ -1,0 +1,37 @@
+<%= form_for(improgroup) do |f| %>
+  <% if improgroup.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(improgroup.errors.count, "error") %> prohibited this improgroup from being saved:</h2>
+
+      <ul>
+      <% improgroup.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name_improgroups %>
+    <%= f.text_field :name_improgroups %>
+  </div>
+
+  <div class="field">
+    <%= f.label :creation_year %>
+    <%= f.text_field :creation_year %>
+  </div>
+
+  <div class="field">
+    <%= f.label :actors_improgroups %>
+    <%= f.text_field :actors_improgroups %>
+  </div>
+
+  <div class="field">
+    <%= f.label :image_improgroups %>
+    <%= f.text_field :image_improgroups %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
