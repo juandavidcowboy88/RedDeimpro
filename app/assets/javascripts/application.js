@@ -17,8 +17,5 @@
 //= require bootstrap-sprockets
 //= require magnific-popup
 //= require scrollReveal
-
-$(function() {
-  window.scrollReveal = new scrollReveal();
-});
+$(function() {  window.scrollReveal = new scrollReveal(); });
 //= require_tree .

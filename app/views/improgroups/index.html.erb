@@ -1,17 +1,38 @@
+<header class="masthead text-center text-white d-flex">
+<div class="container my-auto">
+ <div class="row">
+   <div class="col-lg-10 mx-auto">
+     <h1 class="text-uppercase">
+       <strong>Your Favorite Source of Free Bootstrap Themes</strong>
+     </h1>
+     <hr>
+   </div>
+   <div class="col-lg-8 mx-auto">
+     <p class="text-faded mb-5">Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
+     <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+   </div>
+ </div>
+</div>
+</header>
+
+
+
 <p id="notice"><%= notice %></p>
-
+<div class="container">
 <h1>Improgroups</h1>
-
+</div>
 <table>
-  <thead>
-    <tr>
-      <th>Name improgroups</th>
-      <th>Creation year</th>
-      <th>Actors improgroups</th>
-      <th>Image improgroups</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
+  <div class="container col-md-12">
+    <thead>
+      <tr>
+        <th>Name improgroups</th>
+        <th>Creation year</th>
+        <th>Actors improgroups</th>
+        <th>Image improgroups</th>
+        <th colspan="10"></th>
+      </tr>
+    </thead>
+  </div>
 
   <tbody>
     <% @improgroups.each do |improgroup| %>
