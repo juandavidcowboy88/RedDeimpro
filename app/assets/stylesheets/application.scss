@@ -91,21 +91,22 @@
   }
 }
 
-
 // Styling for the masthead
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url('../img/header.jpg');
+  background-image: url('todos.jpg');
   background-position: center center;
-
+  background-size: cover;
   hr {
     margin-top: 30px;
     margin-bottom: 30px;
   }
-  h1 {
+
+    h1 {
     font-size: 2rem;
   }
+
   p {
     font-weight: 300;
   }
