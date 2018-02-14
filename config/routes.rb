@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'general/index'
+
   devise_for :users
   root 'improgroups#index'
   resources :improgroups

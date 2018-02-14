@@ -1,4 +1,5 @@
 class ImprogroupsController < ApplicationController
+  before_action :authenticate_user!
   before_action :set_improgroup, only: [:show, :edit, :update, :destroy]
 
   # GET /improgroups
